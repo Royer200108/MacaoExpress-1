@@ -153,3 +153,151 @@ body{
     text-align: center;
     margin: 0 0.75rem 0 0.75rem;;
 }
+
+#ayuda{
+    width: 414px;
+    height: 271px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 0px 30px 30px;
+    background: #C22727;
+    border-radius: 0px 0px 30px 30px;
+
+
+    display: flex;
+
+}
+
+#Soporte{
+    width: 414px;
+    height: 846px;
+    background-color: #F2B705;
+}
+.msj-ayuda {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    padding: 0 0 0 1rem;
+    margin-top: 50px;
+    color: white;
+}
+.msj-soporte{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#help-section{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+.soluciones{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    padding: 0 0 0 1rem;
+}
+.botones{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+.btn-success{
+    padding: 0 0 0 1rem;
+    margin-top: 20px;
+    width: 382px;
+    height: 50px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: #3F7F00;
+    border-radius: 10px;
+}
+
+.servicio-cliente{
+    margin-top: 1rem;
+    
+}
+.botones-2{
+    display: flex;
+    justify-content: center;
+}
+.btn-success-2{
+    padding: 0;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+}
+.img-logo{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+#Avisos{
+    width: 414px;
+    height: 896px;
+    background-color: #F2B705;;
+}
+.encabezado{
+    background: #C22727;
+    width: 414px;
+    height: 145px;
+    border-radius: 0px 0px 30px 30px;
+}
+.avisos-tit{
+    padding: 0px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.intermediarios{
+    
+    display: flex;
+}
+.visualizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    width: 207px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #494949;
+    border-bottom: solid 2px #494949;
+    
+}
+
+.visualizar-ahora{
+    border-color: #C22727;
+    color: #C22727;
+    background: #ecb100;
+}
+.no-visualizar-ahora{
+    border-color: #494949;
+    color: #494949;
+    background: #f2b705;
+}
+
+#Pendientes{
+    background-color: #3F7F00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
